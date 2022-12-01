@@ -36,6 +36,10 @@ function goBtnClicked() {
 function allColors() {
   // Display Name and Family of All Colors
   outputEl.innerHTML = "<h3>Display All Colors</h3>";
+  for (i = 0; i < family.length; i++) {
+    outputEl.innerHTML = family[i];
+    
+  }
 }
 
 function brightColors() {
